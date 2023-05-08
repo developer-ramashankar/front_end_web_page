@@ -1,43 +1,35 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-			<title>Educavo - Education HTML Template</title>
-					<?php include("./include/stylesheet.php")?>
-			<!--[if lt IE 9]>
-					<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-					<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-			<![endif]-->
+			<title>About- Educavo</title>
+			<meta charset="utf-8">
+			<meta name="description" content="">
+			<meta http-equiv="x-ua-compatible" content="ie=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="apple-touch-icon" href="apple-touch-icon.html">
+			<link rel="shortcut icon" type="image/x-icon" href="assets/images/fav-orange.png">
+			<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css">
+			<link rel="stylesheet" type="text/css" href="assets/fonts/linea-fonts.css">
+			<link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+			<link rel="stylesheet" href="assets/css/rsmenu-main.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
+			<link rel="stylesheet" type="text/css" href="style.css"> 
+			<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	</head>
 <body class="defult-home">
 
-		<!--Full width header Start-->
         <div class="full-width-header header-style1 home8-style4">
        	<?php include("./include/navbar.php")?>
         </div>
-        <!--Full width header End-->
-
-
-		<!-- Main content Start -->
+ 
 		<div class="main-content">
-			<!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs breadcrumbs-overlay">
-					<div class="breadcrumbs-img">
-							<img src="assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
-					</div>
-					<div class="breadcrumbs-text white-color">
-							<h1 class="page-title">About Us</h1>
-							<ul>
-								<li>
-									<a class="active" href="index-2.html">Home</a>
-								</li>
-								<li>About Us</li>
-							</ul>
-					</div>
-			</div>
-			<!-- Breadcrumbs End -->
-
-			<!-- About Section Start -->
-			<div id="rs-about" class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70">
+			<div id="rs-about" class="rs-about style1 pt-50 pb-100 md-pt-70 md-pb-70">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-6 order-last padding-0 md-pl-15 md-pr-15 md-mb-30">
@@ -190,7 +182,7 @@
 			<!-- About Section End -->
 
 			<!-- Team Section Start -->
-			<div id="rs-team" class="rs-team style1 orange-color pt-94 pb-100 md-pt-64 md-pb-70 gray-bg">
+			 <div id="rs-team" class="rs-team style1 orange-color pt-94 pb-100 md-pt-64 md-pb-70 gray-bg">
 				<div class="container">
 					<div class="sec-title mb-50 md-mb-30">
 							<div class="sub-title orange">Instructor</div>
@@ -331,46 +323,29 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
             <!-- Newsletter section end -->
         </div> 
         <!-- Main content End --> 
 
          <?php include("./include/footer.php")?>
-		<!-- modernizr js -->
 		<script src="assets/js/modernizr-2.8.3.min.js"></script>
-		<!-- jquery latest version -->
 		<script src="assets/js/jquery.min.js"></script>
-		<!-- Bootstrap v4.4.1 js -->
 		<script src="assets/js/bootstrap.min.js"></script>
-		<!-- Menu js -->
 		<script src="assets/js/rsmenu-main.js"></script> 
-		<!-- op nav js -->
 		<script src="assets/js/jquery.nav.js"></script>
-		<!-- owl.carousel js -->
 		<script src="assets/js/owl.carousel.min.js"></script>
-		<!-- Slick js -->
 		<script src="assets/js/slick.min.js"></script>
-		<!-- isotope.pkgd.min js -->
 		<script src="assets/js/isotope.pkgd.min.js"></script>
-		<!-- imagesloaded.pkgd.min js -->
 		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-		<!-- wow js -->
 		<script src="assets/js/wow.min.js"></script>
-		<!-- Skill bar js -->
 		<script src="assets/js/skill.bars.jquery.js"></script>
 		<script src="assets/js/jquery.counterup.min.js"></script>        
-		 <!-- counter top js -->
 		<script src="assets/js/waypoints.min.js"></script>
-		<!-- video js -->
 		<script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-		<!-- magnific popup js -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>      
-		<!-- plugins js -->
 		<script src="assets/js/plugins.js"></script>
-		<!-- contact form js -->
 		<script src="assets/js/contact.form.js"></script>
-		<!-- main js -->
 		<script src="assets/js/main.js"></script>
 </body>
  

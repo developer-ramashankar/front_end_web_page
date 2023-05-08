@@ -58,6 +58,22 @@
 							</div>
 						</a>
 					</li>
+					<li class="nav-item">
+						<a href="add_explore_popular_courses.php" class="group">
+							<div class="flex items-center">
+								<i class="fa-solid fa-pen-to-square"></i>
+								<span class="text-black ltr:pl-3 rtl:pr-3 dark:text-[#506690] dark:group-hover:text-white-dark">Add Explore Popular Courses</span>
+							</div>
+						</a>
+					</li>
+				 <li class="nav-item">
+						<a href="apps-mailbox.html" class="group">
+							<div class="flex items-center">
+								<i class="fa-solid fa-pen-to-square"></i>
+								<span class="text-black ltr:pl-3 rtl:pr-3 dark:text-[#506690] dark:group-hover:text-white-dark">Explore Popular		 Courses List</span>
+							</div>
+						</a>
+					</li>
 				</ul>
 			</li>
 			 <h2 class="-mx-4 mb-1 flex items-center bg-white-light/30 py-3 px-7 font-extrabold uppercase dark:bg-dark dark:bg-opacity-[0.08]">

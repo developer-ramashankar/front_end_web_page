@@ -26,12 +26,7 @@
                 </div>
                 <div class="breadcrumbs-text white-color padding">
                     <h1 class="page-title white-color">Contact 2</h1>
-                    <ul>
-                        <li>
-                            <a class="active" href="index-2.html">Home</a>
-                        </li>
-                        <li>Contact 2</li>
-                    </ul>
+                  
                 </div>
             </div>
             <!-- Breadcrumbs End -->            

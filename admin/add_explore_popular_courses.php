@@ -56,7 +56,10 @@ $username = "root";
 $password = "";
 $dbname = "educavo";
 
-$course_name = $_POST['course_name'];
+$course_title = $_POST['course_title'];
+$course_fee = $_POST['course_fee'];
+$student_number = $_POST['student_number'];
+$course_lesson = $_POST['course_lesson'];
 
 $date = date('d-m-y');
 $datetime = time();
@@ -68,12 +71,12 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "insert into add_top_courses (id,course_name,course_photo,date,datetime) VALUES (id,'$course_name','$photo','$date','$datetime')";
+$sql = "insert into add_explore_popular_courses (id,course_title,photo,course_fee,student_number,date,datetime,course_lesson) VALUES (id,'$course_title','$photo','$course_fee','$student_number','$date','$datetime','$course_lesson')";
 
 if ($conn->query($sql) === TRUE) {
-header("location:./add_top_courses.php?msg=success");
+header("location:./add_explore_popular_courses.php?msg=success");
 } else {
-header("location:./add_top_courses.php?msg=error");
+header("location:./add_explore_popular_courses.php?msg=error");
 }
 
 $conn->close();
@@ -82,7 +85,7 @@ $conn->close();
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-<title>Add Top Courses</title>
+<title>Add Explore Popular Courses</title>
 	   <?php include("./include/stylesheet.php")?>
 </head>
 <body
@@ -103,14 +106,26 @@ class="relative overflow-x-hidden font-nunito text-sm font-normal antialiased"
 			<!-- start main content section -->
 			<div x-data="sales">
 				<div class="pt-5">
-					<form class="space-y-5" action="./add_top_courses.php" method="post" enctype="multipart/form-data">
-						<div>
-							<span class="text-black-dark text-[110px] inline-block mb-3">Enter Course Name</span>
-							<input type="text" name ="course_name" placeholder="Enter Course Name" class="form-input" />
-						</div>
+					<form class="space-y-5" action="./add_explore_popular_courses.php" method="post" enctype="multipart/form-data">
 					  <div>
-							<span class="text-black-dark text-[110px] inline-block mb-3">Enter Course Photo Link </span>
+							<span class="text-black-dark text-[110px] inline-block mb-3">Enter Popular Course Photo</span>
 							<input required type="file" name ="photo" placeholder="Enter Course Photo Link" class="form-input" />
+						</div>
+						<div>
+							<span class="text-black-dark text-[110px] inline-block mb-3">Enter Popular Course Title</span>
+							<input type="text" name ="course_title" placeholder="Enter Course Name" class="form-input" />
+						</div>
+						<div>
+							<span class="text-black-dark text-[110px] inline-block mb-3">Enter Fee</span>
+							<input type="text" name ="course_fee" placeholder="Enter Course Name" class="form-input" />
+						</div>
+						<div>
+							<span class="text-black-dark text-[110px] inline-block mb-3">Enter Student Number</span>
+							<input type="text" name ="student_number" placeholder="Enter Course Name" class="form-input" />
+						</div>
+					  	<div>
+							<span class="text-black-dark text-[110px] inline-block mb-3">Enter Course Lesson</span>
+							<input type="text" name ="course_lesson" placeholder="Enter Course Name" class="form-input" />
 						</div>
 					  
 						 
