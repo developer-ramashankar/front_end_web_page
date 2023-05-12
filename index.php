@@ -275,78 +275,8 @@
                         data-mobile-device="1" 
                         data-mobile-device-nav="false" 
                         data-mobile-device-dots="false">
-                        <div class="testi-item">
-                            <div class="author-desc">                                
-                                <div class="desc"><img class="quote" src="assets/images/testimonial/main-home/test-2.png" alt="">Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company.</div>
-                                <div class="author-img">
-                                    <img src="assets/images/testimonial/style5/1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="author-part">
-                                <a class="name" href="#">Mahadi Monsura</a>
-                                <span class="designation">Student</span>
-                            </div>
-                        </div>
-                        <div class="testi-item">
-                            <div class="author-desc">
-                                <div class="desc"><img class="quote" src="assets/images/testimonial/main-home/test-2.png" alt="">Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company.</div>
-                                <div class="author-img">
-                                    <img src="assets/images/testimonial/style5/2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="author-part">
-                                <a class="name" href="#">Alex Fenando</a>
-                                <span class="designation">English Teacher</span>
-                            </div>
-                        </div>
-                        <div class="testi-item">
-                            <div class="author-desc">
-                                <div class="desc"><img class="quote" src="assets/images/testimonial/main-home/test-2.png" alt="">Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company.</div>
-                                <div class="author-img">
-                                    <img src="assets/images/testimonial/style5/3.png" alt="">
-                                </div>
-                            </div>
-                            <div class="author-part">
-                                <a class="name" href="#">Losis Dcosta</a>
-                                <span class="designation">Math Teacher</span>
-                            </div>
-                        </div>   
-                        <div class="testi-item">
-                            <div class="author-desc">                                
-                                <div class="desc"><img class="quote" src="assets/images/testimonial/main-home/test-2.png" alt="">Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company.</div>
-                                <div class="author-img">
-                                    <img src="assets/images/testimonial/style5/1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="author-part">
-                                <a class="name" href="#">Mahadi Monsura</a>
-                                <span class="designation">Student</span>
-                            </div>
-                        </div>
-                        <div class="testi-item">
-                            <div class="author-desc">
-                                <div class="desc"><img class="quote" src="assets/images/testimonial/main-home/test-2.png" alt="">Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company.</div>
-                                <div class="author-img">
-                                    <img src="assets/images/testimonial/style5/2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="author-part">
-                                <a class="name" href="#">Alex Fenando</a>
-                                <span class="designation">English Teacher</span>
-                            </div>
-                        </div>
-                        <div class="testi-item">
-                            <div class="author-desc">
-                                <div class="desc"><img class="quote" src="assets/images/testimonial/main-home/test-2.png" alt="">Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That’s how I would describe Jeramy and his team at The Lorem Ipsum Company. When it comes to content marketing, you’ll definitely get the 5-star treatment from the Lorem Ipsum Company.</div>
-                                <div class="author-img">
-                                    <img src="assets/images/testimonial/style5/3.png" alt="">
-                                </div>
-                            </div>
-                            <div class="author-part">
-                                <a class="name" href="#">Losis Dcosta</a>
-                                <span class="designation">Math Teacher</span>
-                            </div>
-                        </div>
+                    <?php include("./include_element/add_testimonial.php")?>
+                        
                     </div>
                 </div>
             </div>
