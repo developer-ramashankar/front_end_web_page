@@ -6,10 +6,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
         <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+       
     </head>
     <body class="defult-home">
 		<!-- Main content Start -->
@@ -290,144 +287,7 @@
                         <h2 class="title"> Latest News & events</h2>
                       </div> 
                     <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
-                        <div class="blog-item">
-                            <div class="image-part">
-                                <img src="assets/images/blog/style2/1.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user-o"></i> Admin</li>
-                                    <li><i class="fa fa-calendar"></i>December 15, 2020</li>
-                                </ul>
-                                <h3 class="title"><a href="blog-single.html">Education is The Process of Facilitating Learning</a></h3>
-                                <div class="desc">the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling</div>
-                                <div class="btn-btm">
-                                    <div class="cat-list">
-                                        <ul class="post-categories">
-                                            <li><a href="#">College</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="rs-view-btn">
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="blog-item">
-                            <div class="image-part">
-                                <img src="assets/images/blog/style2/2.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user-o"></i> Admin</li>
-                                    <li><i class="fa fa-calendar"></i>October 15, 2020</li>
-                                </ul>
-                                <h3 class="title"><a href="blog-single.html">High school program starting soon 2021 </a></h3>
-                                <div class="desc">the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling</div>
-                                <div class="btn-btm">
-                                    <div class="cat-list">
-                                        <ul class="post-categories">
-                                            <li><a href="#">College</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="rs-view-btn">
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="blog-item">
-                            <div class="image-part">
-                                <img src="assets/images/blog/style2/3.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user-o"></i> Admin</li>
-                                    <li><i class="fa fa-calendar"></i>April 25, 2020</li>
-                                </ul>
-                                <h3 class="title"><a href="blog-single.html">Shutdown of schools extended to Aug 31 </a></h3>
-                                <div class="desc">the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling</div>
-                                <div class="btn-btm">
-                                    <div class="cat-list">
-                                        <ul class="post-categories">
-                                            <li><a href="#">College</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="rs-view-btn">
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="blog-item">
-                            <div class="image-part">
-                                <img src="assets/images/blog/style2/4.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user-o"></i> Admin</li>
-                                    <li><i class="fa fa-calendar"></i>June 20, 2010</li>
-                                </ul>
-                                <h3 class="title"><a href="blog-single.html">This is a great source of content for anyone… </a></h3>
-                                <div class="desc">the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling</div>
-                                <div class="btn-btm">
-                                    <div class="cat-list">
-                                        <ul class="post-categories">
-                                            <li><a href="#">College</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="rs-view-btn">
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="blog-item">
-                            <div class="image-part">
-                                <img src="assets/images/blog/style2/5.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user-o"></i> Admin</li>
-                                    <li><i class="fa fa-calendar"></i>August 30, 2020</li>
-                                </ul>
-                                <h3 class="title"><a href="blog-single.html">Pandemic drives millions from Latin America’s</a></h3>
-                                <div class="desc">the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling</div>
-                                <div class="btn-btm">
-                                    <div class="cat-list">
-                                        <ul class="post-categories">
-                                            <li><a href="#">College</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="rs-view-btn">
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="blog-item">
-                            <div class="image-part">
-                                <img src="assets/images/blog/style2/6.jpg" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                    <li><i class="fa fa-user-o"></i> Admin</li>
-                                    <li><i class="fa fa-calendar"></i>May 10, 2020</li>
-                                </ul>
-                                <h3 class="title"><a href="blog-single.html">Modern School the lovely valley team work</a></h3>
-                                <div class="desc">the acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling</div>
-                                <div class="btn-btm">
-                                    <div class="cat-list">
-                                        <ul class="post-categories">
-                                            <li><a href="#">College</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="rs-view-btn">
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php include("./include_element/add_latest_news.php")?> 
                      </div>
                 </div>
             </div>

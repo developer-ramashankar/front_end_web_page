@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-        <title>Educavo - Education HTML Template</title>
+        <title>Contact Us</title>
         <?php include("./include/stylesheet.php")?>
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+         
     </head>
     <body class="defult-home">
  
@@ -19,18 +16,7 @@
 
 		<!-- Main content Start -->
         <div class="main-content">
-            <!-- Breadcrumbs Start -->
-            <div class="rs-breadcrumbs breadcrumbs-overlay ">
-                <div class="breadcrumbs-img">
-                    <img src="assets/images/breadcrumbs/6.jpg" alt="Breadcrumbs Image">
-                </div>
-                <div class="breadcrumbs-text white-color padding">
-                    <h1 class="page-title white-color">Contact 2</h1>
-                  
-                </div>
-            </div>
-            <!-- Breadcrumbs End -->            
-
+       
     		<!-- Contact Section Start -->
     		<div class="contact-page-section pt-100 pb-100 md-pt-70 md-pb-70">
             	<div class="container">

@@ -90,29 +90,46 @@
 							</div>
 						</a>
 					</li>
+					<li class="nav-item">
+						<a href="add_latest_news.php" class="group">
+							<div class="flex items-center">
+								<i class="fa-solid fa-pen-to-square"></i>
+								<span class="text-black ltr:pl-3 rtl:pr-3 dark:text-[#506690] dark:group-hover:text-white-dark">Add Latest News</span>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="add_testimonial.php" class="group">
+							<div class="flex items-center">
+								<i class="fa-solid fa-pen-to-square"></i>
+								<span class="text-black ltr:pl-3 rtl:pr-3 dark:text-[#506690] dark:group-hover:text-white-dark">Add Latest News List</span>
+							</div>
+						</a>
+					</li>
 				</ul>
 			</li>
 			 <h2 class="-mx-4 mb-1 flex items-center bg-white-light/30 py-3 px-7 font-extrabold uppercase dark:bg-dark dark:bg-opacity-[0.08]">
-				<span>Home Page</span>
+				<span>Blog Page</span>
 			</h2>
 			<li class="nav-item">
 				<ul>
 					<li class="nav-item">
-						<a href="apps-mailbox.html" class="group">
+						<a href="add_blog.php" class="group">
 							<div class="flex items-center">
 								<i class="fa-solid fa-pen-to-square"></i>
-								<span class="text-black ltr:pl-3 rtl:pr-3 dark:text-[#506690] dark:group-hover:text-white-dark">Top Course</span>
+								<span class="text-black ltr:pl-3 rtl:pr-3 dark:text-[#506690] dark:group-hover:text-white-dark">Add Blog</span>
 							</div>
 						</a>
 					</li>
-				 <li class="nav-item">
-						<a href="apps-mailbox.html" class="group">
+							<li class="nav-item">
+						<a href="add_blog.php" class="group">
 							<div class="flex items-center">
 								<i class="fa-solid fa-pen-to-square"></i>
-								<span class="text-black ltr:pl-3 rtl:pr-3 dark:text-[#506690] dark:group-hover:text-white-dark">Top Course</span>
+								<span class="text-black ltr:pl-3 rtl:pr-3 dark:text-[#506690] dark:group-hover:text-white-dark">Blog List</span>
 							</div>
 						</a>
 					</li>
+				 
 				</ul>
 			</li>
 		</ul>
